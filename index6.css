@@ -1,0 +1,38 @@
+h1{
+    color:brown;
+    font-size:40px;
+    padding-right:20px;
+    margin-top:40px;
+    border-bottom:5px solid blue;
+    border-radius:19px;
+    background-color: aquamarine;
+    letter-spacing:2px;
+    animation: bg123 3s infinite;
+}
+p{
+    color:blue;
+    font-size:30px;
+    padding-top:40px;
+}
+p:hover{
+    color:red;
+}
+h2{
+    color:brown;
+    font-size:40px;
+    animation: bg123 3s infinite;
+}
+h3{
+    color:brown;
+    font-size:40px;
+    animation: bg123 3s infinite;
+}
+@keyframes bg123{
+    from{background-color:palevioletred;
+    font-size:20px;}
+    to{background-color: aqua;
+    font-size:50px;}
+}
+@keyframes fs123{
+    from{}
+}
